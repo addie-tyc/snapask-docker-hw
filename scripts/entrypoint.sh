@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 airflow db init
+airflow db init
 
 airflow users create \
     -e addiechung.tyc@gmail.com \
